@@ -1,0 +1,30 @@
+body {
+	color:#333331;
+	background-color:#EFEFCE;
+	font-size:15px;
+}
+li, h2 {
+	margin-bottom:20px;
+}
+p, li {
+	font-family:open sans;
+}
+h2{
+	font-family:champagne et limousine
+}
+.carousel {
+	padding-top: 50px;
+}
+.espace {
+	margin-bottom: 40px;
+}
+.green {
+	color:#68C223;
+}
+.container-fluid {
+	margin-top: 40px;
+}
+#background {
+	background-image:url(http://www.fond-ecran-hd.net/pc-driver/1230.jpg);
+	color:#EFEFCE;
+}
