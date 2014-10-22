@@ -1,0 +1,85 @@
+
+#header
+	{
+	background-color: red;
+	height: 55px;
+	z-index: 3;
+	}
+
+#navet
+	{
+	margin-bottom: 0px;
+	position: relative;
+	}
+
+#plat
+	{
+	padding-top: 50px;
+	background-color: white;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 250px;
+	position: relative;
+	}
+
+#title
+	{
+	top: 40px;
+	font-style: Courier;
+	color: black;
+	text-align: center;
+	position: relative;
+	}
+
+#bienvenue
+	{
+	top: 40px; 
+	color: black;
+	text-align: center;
+	position: relative;
+	}
+
+#plat2
+	{
+	background-color: black;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 400px;
+	position: relative;
+	}
+
+#formateur
+	{
+	font-style: "open sans 400";
+	background-color: #68C223;
+	}
+
+#desc
+	{
+	background-color: :#EFEFCE
+	}
+
+#fion
+	{
+	font-style: champagne et limousine;
+	top: 120px;
+	text-align: center;
+	color: white;
+	position: relative;
+	}
+
+#jobs
+	{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	}
+
+#P
+	{
+	color: green;
+	}
+
