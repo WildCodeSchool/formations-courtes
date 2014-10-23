@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Formations Courtes" %></title>
+    
+    <%= stylesheet_link_tag "bootstrap.min", "custom" %>
+    <%= javascript_include_tag "ie-emulation-modes-warning", "jquery.min", "bootstrap.min", "ie10-viewport-bug-workaround" %>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= partial "header" %> <!-- Appel du header -->
+
+    <%= yield %> <!-- Appel index & autres pages -->
+
+    <%= partial "footer" %> <!-- Appel du footer -->
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body{
+font-family: 'Open Sans', sans-serif;
+padding-top: 80px;
+background-color: #333331;
+}
+footer {
+  width: 100%;
+  height: 30px;
+  /* Set the fixed height of the footer here */
+  color: white;
+  background-color: #333331;
+  text-align: center;
+}
+#content{
+	background-color: #EFEFCE;
+}
+#logo{
+	margin-top: 40px;
+	max-width: 30%;
+}
+#logotitre{
+	color: #68C223;
+}
+/** FOOTER **/
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.jumbotron{
+  background-color: #EFEFCE;
+  color: #68C223;
+}
