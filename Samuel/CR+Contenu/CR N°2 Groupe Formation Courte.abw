@@ -1,0 +1,11 @@
+Compte rendu N°2 Groupe Formation Courte
+
+	Présentation des premiers wireframes sur le projet. Au nombre de trois au total.
+	Idée des barres de progression non retenues (telle formation permet une connaissance en % sur tel ou tel langage etc.).
+	En terme d’images pour la présentation des formations, il faut montrer plus des personnes que des choses abstraites ou des paysages 
+	La deuxième wireframe présentée suscite l’intérêt d’Anna Stépanoff, avec une grande curiosité pour l’idée du carrousel.
+	L’idée principale du site prend tout son sens : le site est un catalogue que l’on peut consulter à la manière d’un vrai format papier. Les solutions mobiles et tactiles prennent aussi toutes leur importance.
+	L’idée est de développer deux niveaux de consultation :
+	Un premier niveau où l’on «joue» à parcourir les formations, nous donnant un aperçu rapide de leur contenu (titre, image d’illustration, points principaux).
+	Un deuxième niveau lorsqu’on clique sur un «learn more» qui affiche une page indépendante avec toutes les informations sur la formation ET le formulaire d’inscription/contact en bas de page. Si l’on clique sur «s’inscrire à la formation» on tombe directement au niveau du formulaire. Ce deuxième niveau est aussi nécessaire pour être redirigé dessus en cas d’utilisation de l’onglet de recherche.
+	
