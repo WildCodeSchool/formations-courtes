@@ -2,29 +2,29 @@
 title: Seedcamp
 ---
 
-<div class="row">
-  <div class="col-sm-8 col-sm-offset-2">    
-    <div class="jumbotron">
+<div class="container">
+	<div class="row">
+	  <div class="col-sm-8 col-sm-offset-2">    
+	    <div class="jumbotron">
 
-      <%= image_tag("logobarrenoir.gif", class: "center-block", id: "logo") %>
-<!-- <img src="img/logobarrenoir.gif" class="center-block" id="logo"> -->
+	      <%= image_tag("logobarrenoir.gif", class: "center-block", id: "logo") %>
+			<!-- methode pour add une class & id à une image, Merci Emilien -->
 
-        <br>
-        <h4 id="logotitre" class="text-center">L'école numérique de La Loupe</h4>
-    </div>
-  </div>
+	        <br>
+	        <h4 id="logotitre" class="text-center">L'école numérique de La Loupe</h4>
+	    </div>
+	  </div>
+	</div>
 </div>
 
 <div class="jumbotron">
   <div class="container-fluid">
   	<div class="row">
-      <div class="col-md-12">
-        <div class="col-md-4">
-
+      <div class="col-sm-12">
+        <div class="col-sm-4">
           <img src="http://lorempixel.com/150/150/" class="thumbnail center-block">
-
         </div><!-- 4 -->
-        <div class="col-md-8 text-left">
+        <div class="col-sm-8 text-left">
          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
         </div><!-- 4 -->
       </div> <!-- 12 -->
@@ -35,7 +35,7 @@ title: Seedcamp
 <div class="jumbotron">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-8 text-right">
+      <div class="col-sm-8 text-right">
         <ul>
           <li>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</li>
           <li>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</li>
@@ -43,7 +43,7 @@ title: Seedcamp
           <li>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</li>
         </ul>
       </div><!-- 4 -->
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <img src="http://lorempixel.com/150/150/" class="thumbnail center-block">
       </div><!-- 4 -->
     </div> <!-- row -->
@@ -53,7 +53,7 @@ title: Seedcamp
 <div class="jumbotron">
   <div class="container-fluid">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-sm-8 col-sm-offset-2">
           <div class="well well-sm">
             <form class="form-horizontal" action="" method="post">
               <fieldset>
@@ -61,40 +61,40 @@ title: Seedcamp
         
                 <!-- Prénom -->
                 <div class="form-group">
-                  <label class="col-md-3 control-label" for="name">Prénom</label>
-                  <div class="col-md-9">
+                  <label class="col-sm-3 control-label" for="name">Prénom</label>
+                  <div class="col-sm-9">
                     <input id="firstname" name="firstname" type="text" placeholder="Votre Prénom" class="form-control">
                   </div>
                 </div>
 
                 <!-- Nom -->
                 <div class="form-group">
-                  <label class="col-md-3 control-label" for="name">Nom</label>
-                  <div class="col-md-9">
+                  <label class="col-sm-3 control-label" for="name">Nom</label>
+                  <div class="col-sm-9">
                     <input id="name" name="name" type="text" placeholder="Votre Nom" class="form-control">
                   </div>
                 </div>
         
                 <!-- Email-->
                 <div class="form-group">
-                  <label class="col-md-3 control-label" for="email">Votre e-mail</label>
-                  <div class="col-md-9">
+                  <label class="col-sm-3 control-label" for="email">Votre e-mail</label>
+                  <div class="col-sm-9">
                     <input id="email" name="email" type="text" placeholder="Entrez votre adresse ici" class="form-control">
                   </div>
                 </div>
         
                 <!-- Message -->
                 <div class="form-group">
-                  <label class="col-md-3 control-label" for="message">Votre message</label>
-                  <div class="col-md-9">
+                  <label class="col-sm-3 control-label" for="message">Votre message</label>
+                  <div class="col-sm-9">
                     <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message ici..." rows="5"></textarea>
                   </div>
                 </div>
         
-                <!-- Submit -->
+                <!-- Envoyer -->
                 <div class="form-group">
-                  <div class="col-md-12 text-right">
-                    <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+                  <div class="col-sm-12 text-right">
+                    <button type="submit" class="btn btn-warning btn-md">Envoyer</button>
                   </div>
                 </div>
               </fieldset>

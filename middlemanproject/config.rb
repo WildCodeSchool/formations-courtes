@@ -1,8 +1,4 @@
 ###
-# Glyphicons
-###
-
-###
 # Compass
 ###
 
@@ -56,6 +52,15 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+###
+# Glyphicons "yes Papi"
+#######################
+set :fonts_dir, 'fonts'
+#######################
+# Vous devez créer un dossier fonts dans /source/ de votre projet,
+# contenant les 4 fichiers des Glyphicons suivant (*.eot, *.svg, *.ttf, *.woff)
+###
 
 # Build-specific configuration
 configure :build do

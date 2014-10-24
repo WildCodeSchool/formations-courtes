@@ -11,13 +11,19 @@
     
     <%= stylesheet_link_tag "bootstrap.min", "custom" %>
     <%= javascript_include_tag "ie-emulation-modes-warning", "jquery.min", "bootstrap.min", "ie10-viewport-bug-workaround" %>
+     <%= favicon_tag 'images/favicon.ico' %>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- les glyphicons sont appelées grace au tweek du fichier config.rb ligne 59 -->
   </head>
 
   <body class="<%= page_classes %>">
     <%= partial "header" %> <!-- Appel du header -->
 
+    <div class="container"> <!-- retire la barre de scroll horizontal -->
+
     <%= yield %> <!-- Appel index & autres pages -->
+
+    </div>
 
     <%= partial "footer" %> <!-- Appel du footer -->
   </body>
