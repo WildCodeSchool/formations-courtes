@@ -1,30 +1,112 @@
+/* Content */
+/* Primary content*/
+#intro {
+	text-align: justify;
+}
 body {
 	color:#333331;
 	background-color:#EFEFCE;
 	font-size:15px;
 }
+
+#background {
+	background-color:#333331;
+	color: #EFEFCE;
+}
+/**/
+
+#desc{
+	margin-left: 1px;
+	text-align: justify;
+}
+
 li, h2 {
 	margin-bottom:20px;
 }
+
 p, li {
-	font-family:open sans;
+	font-family: Open Sans;
 }
+
 h2{
-	font-family:champagne et limousine
+	font-family:champagne et limousine;
 }
-.carousel {
-	padding-top: 50px;
-}
-.espace {
-	margin-bottom: 40px;
-}
+/**/
+
+/*First letter*/
 .green {
 	color:#68C223;
 }
+/**/
+
+/* Carousel */
+#cargrid {
+	background-color: #333331;
+	color: #EFEFCE;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control {
+    color: #EFEFCE;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+    color: #68C223;
+}
+
+
+#comment1{
+	margin-top: 15px;
+	border-radius: 100%;
+	border-style: solid;
+  	border-color: #68C223;
+  	border-width: 3px;
+	height: 200px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid, 2px;
+}
+
+#comm1{
+	text-align: center;
+
+}
+
+.item{
+	height: 350px;
+}
+/**/
+
+.espace {
+	margin-bottom: 40px;
+}
+
 .container-fluid {
 	margin-top: 40px;
 }
-#background {
-	background-image:url(http://www.fond-ecran-hd.net/pc-driver/1230.jpg);
-	color:#EFEFCE;
+
+/* Custom Form */
+#form {
+color: #EFEFCE;
 }
+
+.well {
+    background-color: #333331;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #EFEFCE;
+    background-color: #68C223;
+    border-color: #EFEFCE;
+}
+
+.btn-primary {
+    color: #68C223;
+    background-color: #EFEFCE;
+    border-color: #68C223;
+}
+/**/
