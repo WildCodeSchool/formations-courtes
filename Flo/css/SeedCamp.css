@@ -28,6 +28,7 @@ h1
 	background-color:#68C223;
 	height:75px;
 	color:#333331;
+	margin-top:50px;
 }
 
 #left, #right
@@ -118,6 +119,26 @@ h1
 	box-shadow: 0px 10px 10px #000000;
 }
 
+#news
+{
+	height:150px;
+	background-color:#333331;
+	box-shadow: 0px 10px 10px #000000;
+	text-align:center;
+	color:#EFEFCE;
+}
+
+#momore
+{
+	margin:auto;
+	position:absolute;
+	color:#EFEFCE;
+	z-index:3;
+	margin-top:-100px;
+	text-align:center;
+	display:none;
+}
+
 #comsmore img
 {
 	margin-left:-10%;
@@ -131,6 +152,7 @@ h1
 	background-color:#EFEFCE;
   	color:#000000;
 	border-radius:10px;
+	box-shadow: 0px 10px 10px #000000;
 }
 
 #footcoms
@@ -148,6 +170,7 @@ h1
 	margin-right:80%;
 	margin-top:4%;
 	border:solid black 1px;
+	box-shadow: 0px 10px 10px #000000;
 }
 
 #footer

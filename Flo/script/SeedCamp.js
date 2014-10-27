@@ -2,7 +2,7 @@ $(document).ready(function()
 {
 	var move = 3;
 	var coms = 1;
-	$("#right").click(function()
+	$("#right, #picmore").click(function()
 	{
 		if (move == 0)
 		{
@@ -130,7 +130,7 @@ $(document).ready(function()
 			move = move;
 		}
 	});
-	$("#left").click(function()
+	$("#left, #picless").click(function()
 	{
 		if (move == 6)
 		{
@@ -282,6 +282,14 @@ $(document).ready(function()
 		}
 		else
 			coms = coms;
+	});
+	$("#pic").mouseenter(function()
+	{
+		$("#momore").css("display", "inline");
+	});
+	$("#pic").mouseleave(function()
+	{
+		$("#momore").css("display", "none");
 	});
 	$("#switch").mouseenter(function()
 	{
