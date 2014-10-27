@@ -1,23 +1,42 @@
 /* Content */
 /* Primary content*/
 #intro {
-	text-align: justify;
-}
-body {
-	color:#333331;
-	background-color:#EFEFCE;
-	font-size:15px;
+	text-align: left;
 }
 
 #background {
 	background-color:#333331;
 	color: #EFEFCE;
 }
+
+#picform{
+	margin-top: 5%;
+	margin-left: 35%;
+	height: 100px;
+	width: 100px;
+}
+
+#bar {
+	background-color:#68C223;
+	height: 80px;
+}
+
+#titleform {
+	margin-left: 3%;
+}
 /**/
 
-#desc{
-	margin-left: 1px;
-	text-align: justify;
+/*First letter*/
+.green {
+	color:#68C223;
+}
+/**/
+
+/*body content*/
+body {
+	color:#333331;
+	background-color:#EFEFCE;
+	font-size:15px;
 }
 
 li, h2 {
@@ -33,13 +52,15 @@ h2{
 }
 /**/
 
-/*First letter*/
-.green {
-	color:#68C223;
+/*Container text in row*/
+#desc{
+	margin-top: 3%;
+	margin-left: 3%;
+	text-align: left;
 }
 /**/
 
-/* Carousel */
+/* Carousel in row */
 #cargrid {
 	background-color: #333331;
 	color: #EFEFCE;
@@ -65,7 +86,7 @@ h2{
   	border-color: #68C223;
   	border-width: 3px;
 	height: 200px;
-	width: 150px;
+	width: 180px;
 	margin-left: auto;
 	margin-right: auto;
 	border: solid, 2px;
@@ -81,17 +102,13 @@ h2{
 }
 /**/
 
-.espace {
-	margin-bottom: 40px;
-}
-
 .container-fluid {
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 /* Custom Form */
 #form {
-color: #EFEFCE;
+	color: #EFEFCE;
 }
 
 .well {

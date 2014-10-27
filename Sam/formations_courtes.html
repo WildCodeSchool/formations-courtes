@@ -1,37 +1,52 @@
 <!Doctype html>
 <html>
+
+<!--head-->
 	<head>
+		<!--title edit-->
+		<title>Page de formation</title>
+		<!--title edit-->
 		<meta charset="utf-8">
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="formations_courtes.css">
 	</head>
+<!--body-->
 	<body>
+<!--col-md for title-->
 		<div class="row" id="background">
-			<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-4">
+				<img id="picform" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png">
+			</div>
+			<div class="col-md-8">
 					<h4><span class="green">D</span>écouverte de l'HTML et du CSS</h4>
-				<p id="intro"><span class="green">E</span>nvie de prendre les commandes de vos pages web et mobiles ? Ce module de formation vous offre la possibilité d’apprendre les bases du code HTML et CSS afin de devenir en quelques semaines capables de programmer des sites webs complets et fonctionnels.
+				<p id="intro"><span class="green">E</span>nvie de prendre les commandes de vos pages web et mobiles? Ce module de formation vous offre la possibilité d’apprendre les bases du code HTML et CSS afin de devenir en quelques semaines capables de programmer des sites webs complets et fonctionnels.
 				</p>
 			</div>
 		</div>
-		
+<!--col-md for title-->
+<!--col-md for title of content-->
+		<div class="row" id="bar">
+			<div class="col-md-12">
+			<h2 id="titleform">CONTENU DE LA FORMATION:</h2>
+			</div>
+		</div>
+<!--col-md and container for descr content-->		
 				<div class="row">
-					<div class="col-md-8">
-						<div id="desc"><h2><span class="green">C</span>ONTENU DE LA FORMATION :</h2>
+					<div class="col-md-7">
+						<div id="desc" class="container">
 							<ul>
 		       					<li><span class="green">L</span>es bases du langage web (10 heures)</li>
 		       					<li><span class="green">A</span>pprentissage du HTML (25 heures)</li>
 		       					<li><span class="green">I</span>ntégrer son CSS dans sa page (15 heures)</li>
 		       					<li><span class="green">B</span>ootstrap et les outils de tous les jours (8 heures)</li>
-		       					<li><span class="green">C</span>réez votre propre site ! (25 heures)</li>
+		       					<li><span class="green">C</span>réez votre propre site! (25 heures)</li>
 		       					<li><span class="green">A</span>ller plus loin avec JavaScript et PHP... (8 heures)</li>
 		       				</ul>
 		       			<p><span class="green">D</span>UREE TOTALE : 1 mois de formation.
 		       			</div>
 		       		</div>
-
-				<div class="espace"></div>
-
-		       		<div id="cargrid" class="col-md-4">
+<!--col-md and container for carousel comments-->		
+		       		<div id="cargrid" class="col-md-5">
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  				<!-- Indicators -->
 
@@ -48,14 +63,14 @@
 		    				<div class="item">
 		    					<img id="comment1" src="http://www.bruceleeactionmuseum.org/blam/image/Take%20Action/Conscience%20copy.jpg" class="img-circle">
 		    					<h6 id="comm1" class="green">Bruce L</h6>
-		      					<h6 id="comm1">« <span class="green">P</span>our une toute première découverte de l’envers du web, je dois avouer que j’étais plutôt déstabilisé au départ et ne pensait pas pouvoir «coder» en l’espace de deux minutes ! Il n’en est rien : les formateurs nous mettent tout de suite en pratique et on réalise à quel point il est aisé d’évoluer dans le codage web. Désormais, je suis plus que prêt pour m’y attaquer tout seul ! »</h6>
+		      					<h6 id="comm1">« <span class="green">P</span>our une toute première découverte de l’envers du web, je dois avouer que j’étais plutôt déstabilisé au départ et ne pensait pas pouvoir «coder» en l’espace de deux minutes! Il n’en est rien: les formateurs nous mettent tout de suite en pratique et on réalise à quel point il est aisé d’évoluer dans le codage web. Désormais, je suis plus que prêt pour m’y attaquer tout seul! »</h6>
 		      				<div class="carousel-caption">
 		      				</div>
 		     				</div>
 		        			<div class="item">
 		        				<img id="comment1" src="http://worldmovies.com.au/wp-content/uploads/2013/06/Jet_Li.jpg">
 		        				<h6 id="comm1" class="green">Jet L</h6>
-		      					<h6 id="comm1">« <span class="green">J</span>e cherchais une formation via les réseaux habituels, rien ne m’a satisfait autant que votre offre ! Ici tout y est : apprentissage, explications mais surtout pratique pratique pratique ! Rien de mieux pour nous donner un court (mais intense !) aperçu des possibilités qui nous sont offertes dans le milieu professionnel. »</h6>
+		      					<h6 id="comm1">« <span class="green">J</span>e cherchais une formation via les réseaux habituels, rien ne m’a satisfait autant que votre offre! Ici tout y est : apprentissage, explications mais surtout pratique pratique pratique! Rien de mieux pour nous donner un court (mais intense!) aperçu des possibilités qui nous sont offertes dans le milieu professionnel. »</h6>
 		      				<div class="carousel-caption">
 		  					</div>
 		  					</div>
@@ -69,7 +84,8 @@
 		  					</a>
 						</div>
 					</div>		
-				</div>		
+			</div>
+<!--end of col-md and container for descr content-->				
 		<!-- Formulaire -->
   			<div id="form" class="container-fluid">
     			<div class="row">
@@ -127,7 +143,10 @@
 		</header>
 		<footer>
 		</footer>
+<!--scrip insert-->		
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+<!--/scrip insert-->	
 	</body>
+<!--/body-->
 </html>
