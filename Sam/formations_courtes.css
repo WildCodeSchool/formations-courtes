@@ -105,6 +105,7 @@ h2{
 .container-fluid {
 	margin-top: 10px;
 }
+<<<<<<< HEAD
 
 /* Custom Form */
 #form {
@@ -127,3 +128,138 @@ h2{
     border-color: #68C223;
 }
 /**/
+=======
+#background {
+	background-image:url(http://www.fond-ecran-hd.net/pc-driver/1230.jpg);
+	color:#EFEFCE;
+}
+#back1
+{
+	background-color:#EFEFCE;
+}
+
+/*navbar color bg*/
+.navbar-default {
+    background-color: #333331;
+    border-color: #68C223;
+}
+/**/
+
+/*navbar custom "seedcamp"*/
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus 
+{
+    color: #68C223;
+    background-color: #EFEFCE;
+}
+.navbar-default .navbar-brand 
+{
+    color: #68C223;
+}
+/**/
+
+/*accueil hover*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus 
+{
+    color: #333331;
+    background-color: #EFEFCE;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus 
+{
+    color: #68C223;
+    background-color: #EFEFCE;
+}
+/**/
+
+/*navbar other links*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus 
+{
+    color: #68C223;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a 
+{
+    color: #EFEFCE;
+}
+/**/
+
+/*dropdown*/
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus 
+{
+    color: #68C223;
+    background-color: #EFEFCE;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #EFEFCE;
+    background-color: #68C223;
+}
+.dropdown-menu > li > a 
+{
+    color: #EFEFCE;
+}
+.dropdown-menu {
+    background-color: #333331;
+}
+/**/
+
+/*mobile dropdown*/
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus 
+{
+    color: #EFEFCE;
+    background-color: #68C223;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+{
+    border-color: #68C223;
+}
+/**/
+
+/*searchbar*/
+/**/
+
+body
+{
+    font-family: 'Open Sans 400', sans-serif;
+    padding-top: 50px;
+}
+
+/* elements of the footer */
+footer 
+{
+    bottom: 0px;
+    width: 100%;
+    height: 10px;
+  /* Set the fixed height of the footer here */
+    height: 30px;
+    background-color: #333331;
+    border-top: solid 1.8px #68C223;
+}
+#mailto
+{
+    margin-top: 5px;
+    float : right;
+    color: #68C223;
+}
+#fbme
+{
+    margin-top: 5px;
+    float : left;
+    color: #68C223;
+}
+/**/
+
+#content
+{
+	background-color: #333331;
+}
+
+#logo
+{
+	margin-top: 40px;
+	max-width: 30%;
+}
+
+#logotitre
+{
+	color: white;
+}
+>>>>>>> caf4c0737e629a0b4dda8e1b4e52a822cc86f1d3

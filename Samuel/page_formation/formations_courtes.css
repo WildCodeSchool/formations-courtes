@@ -1,0 +1,129 @@
+/* Content */
+/* Primary content*/
+#intro {
+	text-align: left;
+}
+
+#background {
+	background-color:#333331;
+	color: #EFEFCE;
+}
+
+#picform{
+	margin-top: 5%;
+	margin-left: 35%;
+	height: 100px;
+	width: 100px;
+}
+
+#bar {
+	background-color:#68C223;
+	height: 80px;
+}
+
+#titleform {
+	margin-left: 3%;
+}
+/**/
+
+/*First letter*/
+.green {
+	color:#68C223;
+}
+/**/
+
+/*body content*/
+body {
+	color:#333331;
+	background-color:#EFEFCE;
+	font-size:15px;
+}
+
+li, h2 {
+	margin-bottom:20px;
+}
+
+p, li {
+	font-family: Open Sans;
+}
+
+h2{
+	font-family:champagne et limousine;
+}
+/**/
+
+/*Container text in row*/
+#desc{
+	margin-top: 3%;
+	margin-left: 3%;
+	text-align: left;
+}
+/**/
+
+/* Carousel in row */
+#cargrid {
+	background-color: #333331;
+	color: #EFEFCE;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control {
+    color: #EFEFCE;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+    color: #68C223;
+}
+
+
+#comment1{
+	margin-top: 15px;
+	border-radius: 100%;
+	border-style: solid;
+  	border-color: #68C223;
+  	border-width: 3px;
+	height: 200px;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid, 2px;
+}
+
+#comm1{
+	text-align: center;
+
+}
+
+.item{
+	height: 350px;
+}
+/**/
+
+.container-fluid {
+	margin-top: 10px;
+}
+
+/* Custom Form */
+#form {
+	color: #EFEFCE;
+}
+
+.well {
+    background-color: #333331;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #EFEFCE;
+    background-color: #68C223;
+    border-color: #EFEFCE;
+}
+
+.btn-primary {
+    color: #68C223;
+    background-color: #EFEFCE;
+    border-color: #68C223;
+}
+/**/

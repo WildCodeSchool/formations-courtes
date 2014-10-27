@@ -4,7 +4,23 @@ $(document).ready(function()
 	var coms = 1;
 	$("#right").click(function()
 	{
-		if (move < 4)
+		if (move == 0)
+		{
+			move = move + 1;
+			$("#picless").empty();
+			$("#picless").append("<img id=less src=./img/forma5.jpg>");
+			$("#pic").empty();
+			$("#pic").append("<img src=./img/forma1.jpg>");
+			$("#picmore").empty();
+			$("#picmore").append("<img id=more src=./img/forma2.jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>OFFRE DE FORMATION : Développeur HTML, CSS, JS, MySQL et PHP</h3><br></br><p>Pour une utilisation experte de tous les outils les plus couramment utilisés sur les internets, cette formation par la pratique va faire de vous de véritables professionnels du web en devenir.</p><br></br><ul><li>Le langage web, les bons outils et les bonnes pratiques (18 heures)</li><li>Apprentissage du HTML, de CSS et de Bootstrap (58 heures)</li><li>Intégrer du JavaScript dans sa page (30 heures)</li><li>PHP et MySQL (25 heures)</li><li>Réseaux sociaux et vidéos (15 heures)</li><li>Poursuivre son apprentissage (8 heures)</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit4.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Très bonne formation qui ne se perd pas dans la théorie soporifique, là on rentre immédiatement dans le vif du sujet !»</h3>");
+		}
+		else if (move == 1)
 		{
 			move = move + 1;
 			var movemore = move + 1;
@@ -15,6 +31,48 @@ $(document).ready(function()
 			$("#pic").append("<img src=./img/forma" + move + ".jpg>");
 			$("#picmore").empty();
 			$("#picmore").append("<img id=more src=./img/forma" + movemore + ".jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>OFFRE DE FORMATION : Programmeur Ruby, Python et JavaScript.</h3><br></br><p>Au delà des touches d’un clavier ou des fonctionnalités d’un objet connecté se trouvent en réalité une multitude de lois qui régissent chacune des commandes qui nous sont offertes. Apprendre la programmation, c’est voir au delà des fonctionnalités que l’on nous offre au quotidien et pour en développer de nouvelles !</p><br></br><ul><li>Problèmes à résoudre via Ruby et Python (24 heures)</li><li>Développer soi-même sur JavaScript (16 heures)</li><li>Reproduire un programme déjà existant (16 heures)</li><li>Créer son propre programme (32 heures)</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit2.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Excellente formation, je la recommande aux membres de mon entourage et à mes collègues de travail.»</h3>");
+		}
+		else if (move == 2)
+		{
+			move = move + 1;
+			var movemore = move + 1;
+			var moveless = move - 1;
+			$("#picless").empty();
+			$("#picless").append("<img id=less src=./img/forma" + moveless + ".jpg>");
+			$("#pic").empty();
+			$("#pic").append("<img src=./img/forma" + move + ".jpg>");
+			$("#picmore").empty();
+			$("#picmore").append("<img id=more src=./img/forma" + movemore + ".jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>OFFRE DE FORMATION : Développeur HTML et CSS</h3><br></br><p>Envie de prendre les commandes de vos pages web et mobiles ? Ce module de formation vous offre la possibilité d’apprendre les bases du code HTML et CSS afin de devenir en quelques semaines capables de programmer des sites webs complets et fonctionnels.</p><br></br><ul><li>Les bases du langage web (10 heures)</li><li>Apprentissage du HTML (25 heures)</li><li>Intégrer son CSS dans sa page (15 heures)</li><li>Bootstrap et les outils de tous les jours (8 heures)</li><li>Créez votre propre site ! (25 heures)</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit1.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Grâce à vous, j’ai de bonnes bases pour évoluer dans la programmation web ! A moi internet ! ;-)»</h3>");		
+		}
+		else if (move == 3)
+		{
+			move = move + 1;
+			var movemore = move + 1;
+			var moveless = move - 1;
+			$("#picless").empty();
+			$("#picless").append("<img id=less src=./img/forma" + moveless + ".jpg>");
+			$("#pic").empty();
+			$("#pic").append("<img src=./img/forma" + move + ".jpg>");
+			$("#picmore").empty();
+			$("#picmore").append("<img id=more src=./img/forma" + movemore + ".jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>MICRO-FORMATIONS:</h3><br></br><p>Apprentissage du Web-Design : Accompagné par les professionnels de l’entreprise Nogentaise «PixeliseURSELF», ce module de formation vous donne les outils pour réussir un webdesign parfait pour vos propres sites et applis.</p><br></br><ul><li>Implémenter son Photoshop ou InDesign</li><li>Réaliser des formes et des Shapoes avec la suite Adobe Pro</li><li>Comment réaliser ses propres banques de données d’image.</li><li>Réaliser une charte grahique en 3 étapes.</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit5.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Les formateurs nous mettent tout de suite en pratique et on réalise à quel point il est aisé d’évoluer dans le codage web !»</h3>");
 		}
 		else if (move == 4)
 		{
@@ -27,6 +85,12 @@ $(document).ready(function()
 			$("#pic").append("<img src=./img/forma" + move + ".jpg>");
 			$("#picmore").empty();
 			$("#picmore").append("<img id=more src=./img/forma1.jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>MICRO-FORMATIONS:</h3><br></br><p>Apprentissage des Réseaux sociaux : Facebook, Twitter, vous connaissez déjà pour vos utilisations persos, pas vrai ? Mais comment intégrer ces outils pour donner plus de lisibilité à vos projets, votre entreprise ou votre collectivité ?</p><br></br><ul><li>Facebook et Twitter en 15 minutes sur mon site.</li><li>Trucs et astuces à faire et à ne pas faire.</li><li>Community Manager, un véritable métier en première ligne.</li><li>Rester à la page et connaître les futurs moyens de communication de demain.</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit3.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Je cherchais une formation via les réseaux habituels, rien ne m’a satisfait autant que votre offre !»</h3>");
 		}
 		else if (move == 5)
 		{
@@ -37,6 +101,12 @@ $(document).ready(function()
 			$("#pic").append("<img src=./img/forma1.jpg>");
 			$("#picmore").empty();
 			$("#picmore").append("<img id=more src=./img/forma2.jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>OFFRE DE FORMATION : Développeur HTML, CSS, JS, MySQL et PHP</h3><br></br><p>Pour une utilisation experte de tous les outils les plus couramment utilisés sur les internets, cette formation par la pratique va faire de vous de véritables professionnels du web en devenir.</p><br></br><ul><li>Le langage web, les bons outils et les bonnes pratiques (18 heures)</li><li>Apprentissage du HTML, de CSS et de Bootstrap (58 heures)</li><li>Intégrer du JavaScript dans sa page (30 heures)</li><li>PHP et MySQL (25 heures)</li><li>Réseaux sociaux et vidéos (15 heures)</li><li>Poursuivre son apprentissage (8 heures)</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit4.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Très bonne formation qui ne se perd pas dans la théorie soporifique, là on rentre immédiatement dans le vif du sujet !»</h3>");
 		}
 		else if (move == 6)
 		{
@@ -48,6 +118,12 @@ $(document).ready(function()
 			$("#picmore").empty();
 			$("#picmore").append("<img id=more src=./img/forma3.jpg>");
 			move = 2;
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>OFFRE DE FORMATION : Programmeur Ruby, Python et JavaScript.</h3><br></br><p>Au delà des touches d’un clavier ou des fonctionnalités d’un objet connecté se trouvent en réalité une multitude de lois qui régissent chacune des commandes qui nous sont offertes. Apprendre la programmation, c’est voir au delà des fonctionnalités que l’on nous offre au quotidien et pour en développer de nouvelles !</p><br></br><ul><li>Problèmes à résoudre via Ruby et Python (24 heures)</li><li>Développer soi-même sur JavaScript (16 heures)</li><li>Reproduire un programme déjà existant (16 heures)</li><li>Créer son propre programme (32 heures)</li>");	
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit2.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Excellente formation, je la recommande aux membres de mon entourage et à mes collègues de travail.»</h3>");
 		}
 		else
 		{
@@ -56,7 +132,25 @@ $(document).ready(function()
 	});
 	$("#left").click(function()
 	{
-		if (move > 2)
+		if (move == 6)
+		{
+			move = move - 1;
+			var movemore = move + 1;
+			var moveless = move - 1;
+			$("#picless").empty();
+			$("#picless").append("<img id=less src=./img/forma" + moveless + ".jpg>");
+			$("#pic").empty();
+			$("#pic").append("<img src=./img/forma" + move + ".jpg>");
+			$("#picmore").empty();
+			$("#picmore").append("<img id=more src=./img/forma1.jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>OFFRE DE FORMATION : Développeur HTML et CSS</h3><br></br><p>Envie de prendre les commandes de vos pages web et mobiles ? Ce module de formation vous offre la possibilité d’apprendre les bases du code HTML et CSS afin de devenir en quelques semaines capables de programmer des sites webs complets et fonctionnels.</p><br></br><ul><li>Les bases du langage web (10 heures)</li><li>Apprentissage du HTML (25 heures)</li><li>Intégrer son CSS dans sa page (15 heures)</li><li>Bootstrap et les outils de tous les jours (8 heures)</li><li>Créez votre propre site ! (25 heures)</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit1.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Grâce à vous, j’ai de bonnes bases pour évoluer dans la programmation web ! A moi internet ! ;-)»</h3>");		
+		}
+		else if (move == 5)
 		{
 			move = move - 1;
 			var movemore = move + 1;
@@ -67,6 +161,48 @@ $(document).ready(function()
 			$("#pic").append("<img src=./img/forma" + move + ".jpg>");
 			$("#picmore").empty();
 			$("#picmore").append("<img id=more src=./img/forma" + movemore + ".jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>MICRO-FORMATIONS:</h3><br></br><p>Apprentissage du Web-Design : Accompagné par les professionnels de l’entreprise Nogentaise «PixeliseURSELF», ce module de formation vous donne les outils pour réussir un webdesign parfait pour vos propres sites et applis.</p><br></br><ul><li>Implémenter son Photoshop ou InDesign</li><li>Réaliser des formes et des Shapoes avec la suite Adobe Pro</li><li>Comment réaliser ses propres banques de données d’image.</li><li>Réaliser une charte grahique en 3 étapes.</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit5.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Les formateurs nous mettent tout de suite en pratique et on réalise à quel point il est aisé d’évoluer dans le codage web !»</h3>");
+		}
+		else if (move == 4)
+		{
+			move = move - 1;
+			var movemore = move + 1;
+			var moveless = move - 1;
+			$("#picless").empty();
+			$("#picless").append("<img id=less src=./img/forma" + moveless + ".jpg>");
+			$("#pic").empty();
+			$("#pic").append("<img src=./img/forma" + move + ".jpg>");
+			$("#picmore").empty();
+			$("#picmore").append("<img id=more src=./img/forma" + movemore + ".jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>OFFRE DE FORMATION : Développeur HTML et CSS</h3><br></br><p>Envie de prendre les commandes de vos pages web et mobiles ? Ce module de formation vous offre la possibilité d’apprendre les bases du code HTML et CSS afin de devenir en quelques semaines capables de programmer des sites webs complets et fonctionnels.</p><br></br><ul><li>Les bases du langage web (10 heures)</li><li>Apprentissage du HTML (25 heures)</li><li>Intégrer son CSS dans sa page (15 heures)</li><li>Bootstrap et les outils de tous les jours (8 heures)</li><li>Créez votre propre site ! (25 heures)</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit1.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Grâce à vous, j’ai de bonnes bases pour évoluer dans la programmation web ! A moi internet ! ;-)»</h3>");		
+		}
+		else if (move == 3)
+		{
+			move = move - 1;
+			var movemore = move + 1;
+			var moveless = move - 1;
+			$("#picless").empty();
+			$("#picless").append("<img id=less src=./img/forma" + moveless + ".jpg>");
+			$("#pic").empty();
+			$("#pic").append("<img src=./img/forma" + move + ".jpg>");
+			$("#picmore").empty();
+			$("#picmore").append("<img id=more src=./img/forma" + movemore + ".jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>OFFRE DE FORMATION : Programmeur Ruby, Python et JavaScript.</h3><br></br><p>Au delà des touches d’un clavier ou des fonctionnalités d’un objet connecté se trouvent en réalité une multitude de lois qui régissent chacune des commandes qui nous sont offertes. Apprendre la programmation, c’est voir au delà des fonctionnalités que l’on nous offre au quotidien et pour en développer de nouvelles !</p><br></br><ul><li>Problèmes à résoudre via Ruby et Python (24 heures)</li><li>Développer soi-même sur JavaScript (16 heures)</li><li>Reproduire un programme déjà existant (16 heures)</li><li>Créer son propre programme (32 heures)</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit2.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Excellente formation, je la recommande aux membres de mon entourage et à mes collègues de travail.»</h3>");
 		}
 		else if (move == 2)
 		{
@@ -79,6 +215,12 @@ $(document).ready(function()
 			$("#pic").append("<img src=./img/forma" + move + ".jpg>");
 			$("#picmore").empty();
 			$("#picmore").append("<img id=more src=./img/forma" + movemore + ".jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>OFFRE DE FORMATION : Développeur HTML, CSS, JS, MySQL et PHP</h3><br></br><p>Pour une utilisation experte de tous les outils les plus couramment utilisés sur les internets, cette formation par la pratique va faire de vous de véritables professionnels du web en devenir.</p><br></br><ul><li>Le langage web, les bons outils et les bonnes pratiques (18 heures)</li><li>Apprentissage du HTML, de CSS et de Bootstrap (58 heures)</li><li>Intégrer du JavaScript dans sa page (30 heures)</li><li>PHP et MySQL (25 heures)</li><li>Réseaux sociaux et vidéos (15 heures)</li><li>Poursuivre son apprentissage (8 heures)</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit4.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Très bonne formation qui ne se perd pas dans la théorie soporifique, là on rentre immédiatement dans le vif du sujet !»</h3>");
 		}
 		else if (move == 1)
 		{
@@ -89,6 +231,12 @@ $(document).ready(function()
 			$("#pic").append("<img src=./img/forma5.jpg>");
 			$("#picmore").empty();
 			$("#picmore").append("<img id=more src=./img/forma1.jpg>");
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>MICRO-FORMATIONS:</h3><br></br><p>Apprentissage des Réseaux sociaux : Facebook, Twitter, vous connaissez déjà pour vos utilisations persos, pas vrai ? Mais comment intégrer ces outils pour donner plus de lisibilité à vos projets, votre entreprise ou votre collectivité ?</p><br></br><ul><li>Facebook et Twitter en 15 minutes sur mon site.</li><li>Trucs et astuces à faire et à ne pas faire.</li><li>Community Manager, un véritable métier en première ligne.</li><li>Rester à la page et connaître les futurs moyens de communication de demain.</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit3.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Je cherchais une formation via les réseaux habituels, rien ne m’a satisfait autant que votre offre !»</h3>");
 		}
 		else if (move == 0)
 		{
@@ -100,6 +248,12 @@ $(document).ready(function()
 			$("#picmore").empty();
 			$("#picmore").append("<img id=more src=./img/forma5.jpg>");
 			move = 4;
+			$("#descmore").empty();
+			$("#descmore").append("<br></br><h3>MICRO-FORMATIONS:</h3><br></br><p>Apprentissage du Web-Design : Accompagné par les professionnels de l’entreprise Nogentaise «PixeliseURSELF», ce module de formation vous donne les outils pour réussir un webdesign parfait pour vos propres sites et applis.</p><br></br><ul><li>Implémenter son Photoshop ou InDesign</li><li>Réaliser des formes et des Shapoes avec la suite Adobe Pro</li><li>Comment réaliser ses propres banques de données d’image.</li><li>Réaliser une charte grahique en 3 étapes.</li>");
+			$("#facecoms").empty();
+			$("#facecoms").append("<img src=./img/commit5.jpg>");
+			$("#realcoms").empty();
+			$("#realcoms").append("<h3>«Les formateurs nous mettent tout de suite en pratique et on réalise à quel point il est aisé d’évoluer dans le codage web !»</h3>");
 		}
 		else
 			move = move;
@@ -111,47 +265,31 @@ $(document).ready(function()
 		{
 			$("#footcoms").empty();
 			$("#footcoms").append("<img src=./img/man" + coms + ".jpg>");
-			$("#footcoms").append("<div id=coms><blockquote><h3>Depuis que je suis dans le perche, je mange des pattes, je n'ai pas le chauffage et j'ai des moucherons chez moi...</h3></blockquote></div>");
+			$("#footcoms").append("<div id=coms><blockquote><p>« Au départ, j’ai appris la programmation et le développement par passion. Pendant mes études d’ingénieur, j’ai toujours aimé hacké les choses qui m’environnaient. Par hacking, j’entends déconstruire : comprendre comment les mécanismes fonctionnent et les réutiliser pour leur trouver d’autres utilités. Lorsque j’ai intégré Simplon Montreuil à Paris en 2013, j’ai tout de suite su que le développement était fait pour moi. Mais au delà de ces aspirations, j’ai compris que je voulais transmettre mon savoir afin de donner aux autres les instruments pour propulser leurs ambitions. »</p></blockquote></div>");
 		}
 		else if (coms == 2)
 		{
 			$("#footcoms").empty();
 			$("#footcoms").append("<img src=./img/man" + coms + ".jpg>");
-			$("#footcoms").append("<div id=coms><blockquote><h3>Avant, j'adorais dormir, maintenant...je rêve de code.</h3></blockquote></div>");
+			$("#footcoms").append("<div id=coms><blockquote><p>« La programmation a toujours été pour moi un objet d’attrait et de déchaînement de joie procuré par la réussite professionnelle qu’elle m’a apporté. En plus de vous apprendre à développer vos sites et vos outils, je suis aussi éco-manager et suis à même de vous livrer les moyens de vous faire connaître des professionnels ou de vendre vos services sur le marché du numérique. »</p></blockquote></div>");
 		}
 		else if (coms == 3)
 		{
 			$("#footcoms").empty();
 			$("#footcoms").append("<img src=./img/man" + coms + ".jpg>");
-			$("#footcoms").append("<div id=coms><blockquote><h3>ILS NOUS VOLENT NOTRE TRAVAIL !</h3></blockquote></div>");
+			$("#footcoms").append("<div id=coms><blockquote><p>Nous recrutons en priorité des talents défavorisés ou sous-représentés dans l’entrepreneuriat digital et la programmation (femmes, personnes issues des zones rurales, des milieux modestes, seniors, personnes en difficulté d’insertion professionnelle ou en situation de handicap...). L’objectif de la formation est d’aider nos stagiaires à oser entreprendre et à intégrer efficacement le marché de travail.</p></blockquote></div>");
 			coms = 0;
 		}
 		else
 			coms = coms;
 	});
-	$("#close").click(function()
+	$("#switch").mouseenter(function()
 	{
-		$("#descmore").css("display", "none");
+		$("#switch").css("color", "#FFFFFF");
 	});
-	$("#close").mouseenter(function()
+	$("#switch").mouseleave(function()
 	{
-		$("#close").css("opacity", "0.5");
-	});
-	$("#close").mouseleave(function()
-	{
-		$("#close").css("opacity", "1");
-	});
-	$("#pic").click(function()
-	{
-		$("#descmore").css("display", "inline");
-	});
-	$("#pic").mouseenter(function()
-	{
-		$("#pic").css("border", "solid #FFFFFF 5px");
-	});
-	$("#pic").mouseleave(function()
-	{
-		$("#pic").css("border", "solid #333331 0px");
+		$("#switch").css("color", "#333331");
 	});
 	$("#left").mouseenter(function()
 	{

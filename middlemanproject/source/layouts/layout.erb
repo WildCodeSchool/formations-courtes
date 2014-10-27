@@ -14,6 +14,10 @@
      <%= favicon_tag 'images/favicon.ico' %>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!-- les glyphicons sont appelées grace au tweek du fichier config.rb ligne 59 -->
+
+
+
+
   </head>
 
   <body class="<%= page_classes %>">
@@ -27,4 +31,9 @@
 
     <%= partial "footer" %> <!-- Appel du footer -->
   </body>
+
+
+<script>$('.navbar-collapse .nav > li > a').click(function(){
+$('.collapse.in').removeClass('in').css('height', '0');
+});</script> <!-- script qui fait remonter la navbar au click d'une ancre -->
 </html>
