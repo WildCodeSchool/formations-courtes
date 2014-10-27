@@ -5,11 +5,18 @@ h1
 	font-size:100px;
 }
 
-p
+#paracom
 {
-	color:#000000;
-	font-size:25px;
-	background-color:#68C223;
+	opacity:0;
+}
+
+#ground
+{
+	position:fixed;
+	top:0%;
+	left:0%;
+	width:100%;
+	z-index:-1;
 }
 
 #discover
@@ -40,23 +47,93 @@ p
 #descmore
 {
 	background-color:#333331;
-	display:none;
-	height:300px;
-	text-align:center;
-  	background-image:url("../img/graygrid.png");
+	height:500px;
+  	color:#FFFFFF;
+  	text-align:center;
+	box-shadow: 0px 10px 10px #000000;
 }
 
-#close
+#descmore h3
 {
-	height:50px;
-	width:50px;
+	background-color:#000000;
+	color:#68C223;
+}
+
+#descmore p, #descmore li
+{
+	text-decoration:none;
+	font-size:20px;
+	color:#FFFFFF;
+}
+
+#comsmore
+{
+	height:500px;
+}
+
+#facecoms img
+{
+	border-radius:100px;
+	height:100%;
+	width:100%;
+}
+
+#facecoms
+{
+	background-color:#FFFFFF;
+	height:150px;
+	width:150px;
+	display:inline-block;
+	margin-top:-82%;
+	margin-left:32.5%;
+	position:absolute;
+	border-radius:100px;
+	border:solid black 1px;
+	z-index:0;
+	box-shadow: 0px 10px 10px #000000;
+}
+
+#realcoms h3
+{
+	margin-top:12.5%;
+}
+
+#realcoms
+{
+	background-color:#FFFFFF;
+	height:200px;
+	width:300px;
+	display:inline-block;
+	margin-top:-50%;
+	margin-left:18%;
+	position:absolute;
+	border-radius:25px;
+	border:solid black 1px;
+	z-index:0;
+	text-align:center;
+	box-shadow: 0px 10px 10px #000000;
+}
+
+#comsmore img
+{
+	margin-left:-10%;
+	height:100%;
+	width:120%;
+	z-index:1;
+}
+
+#footcoms p
+{
+	background-color:#FFFFFF;
+  	color:#000000;
+	border-radius:10px;
 }
 
 #footcoms
 {
 	height:300px;
-  	background-image:url("../img/orangegrid.png");
   	text-align:right;
+  	background-color:#000000;
 }
 
 #footcoms img
@@ -66,6 +143,7 @@ p
 	border-radius:100px;
 	margin-right:80%;
 	margin-top:4%;
+	border:solid black 1px;
 }
 
 #footer
@@ -80,14 +158,18 @@ p
 	background-color:#000000;
 	height:300px;
 	padding-top:75px;
-	border:solid #333331 5px;
 }
 
 #coms
 {
 	margin-left:25%;
-	margin-top:-12.5%;
+	margin-top:-20%;
 	margin-right:10%;
+}
+
+#coms p
+{
+	font-size:20px;
 }
 
 #commit
