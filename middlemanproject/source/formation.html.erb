@@ -1,42 +1,145 @@
----
-title: Seedcamp
----
+<!--col-md for title-->
+		<div class="row" id="background">
+			<div class="col-md-4">
+				<br><%= image_tag("html5.png", class: "center-block") %>
+			</div>
+			<div class="col-md-8">
+				<br>
+					<h3 align="center"><span id="green">D</span>écouverte de l'HTML et du CSS</h3>
+				<p><span id="green">E</span>nvie de prendre les commandes de vos pages web et mobiles? Ce module de formation vous offre la possibilité d’apprendre les bases du code HTML et CSS afin de devenir en quelques semaines capables de programmer des sites webs complets et fonctionnels.
+				</p>
+				<br>
+			</div>
+		</div>
+<!--col-md for title-->
+<!--col-md for title of content-->
+<div class="row" id="bar">
 
-<h1>Page Formation</h1>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
+	<div class="col-md-12">
+		<div class="col-md-7 text-center">
+			<h3> Contenu de la formation</h3>
+		</div>
+	</div>
+
+</div>
+<!--col-md and container for descr content-->		
+<div class="row">
+<div class="row">
+	<div class="col-md-7 text-left">
+		<div id="desc" class="container">
+			<ul>
+		       	<li><span id="green">L</span>es bases du langage web (10 heures)</li>
+		       	<li><span id="green">A</span>pprentissage du HTML (25 heures)</li>
+		       	<li><span id="green">I</span>ntégrer son CSS dans sa page (15 heures)</li>
+		       	<li><span id="green">B</span>ootstrap et les outils de tous les jours (8 heures)</li>
+		       	<li><span id="green">C</span>réez votre propre site! (25 heures)</li>
+		       	<li><span id="green">A</span>ller plus loin avec JavaScript et PHP... (8 heures)</li>
+		    </ul>
+		       	<p><span class="green">D</span>UREE TOTALE : 1 mois de formation.
+		</div> <!-- desc container -->
+	</div> <!-- col md 7 -->
+
+<!--col-md and container for carousel comments-->
+
+	<div id="cargrid" class="col-md-5">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+		  					<!-- Wrapper for slides -->
+		  	<div class="carousel-inner" id="background">
+		    	<div class="item active">
+		    		<%= image_tag("formateur1.jpg", class: "img-circle", id: "comment1") %>
+		    			<h6 id="comm1" class="green">Le formateur :</h6>
+		      			<h6 id="comm1">« <span class="green">A</span>u delà des appréhensions courantes ou de l’aspect repoussoir et imbuvable du codage web, il faut savoir qu’il ne s’agit que d’un langage qui a son propre vocabulaire, sa propre grammaire et qu’il est assez simple de le parler. Cette formation intégralement pratique est un excellent moyen pour le découvrir en quelques séances. »</h6>
+		      			
+		    	</div><!-- item -->
+		    	<div class="item">
+		    		<%= image_tag("formateur2.jpg", class: "img-circle", id: "comment1") %>
+		    			<h6 id="comm1" class="green">Bruce L</h6>
+		      			<h6 id="comm1">« <span class="green">P</span>our une toute première découverte de l’envers du web, je dois avouer que j’étais plutôt déstabilisé au départ et ne pensait pas pouvoir «coder» en l’espace de deux minutes! Il n’en est rien: les formateurs nous mettent tout de suite en pratique et on réalise à quel point il est aisé d’évoluer dans le codage web. Désormais, je suis plus que prêt pour m’y attaquer tout seul! »</h6>
+		      	
+		     	</div><!-- item -->
+		        <div class="item">
+		        	<%= image_tag("formateur3.jpg", class: "img-circle", id: "comment1") %>
+		        		<h6 id="comm1" class="green">Jet L</h6>
+		      			<h6 id="comm1">« <span class="green">J</span>e cherchais une formation via les réseaux habituels, rien ne m’a satisfait autant que votre offre! Ici tout y est : apprentissage, explications mais surtout pratique pratique pratique! Rien de mieux pour nous donner un court (mais intense!) aperçu des possibilités qui nous sont offertes dans le milieu professionnel. »</h6>
+		      		
+		  		</div><!-- item -->
+		  	</div> <!-- carrousel inner -->
+		    		<!-- Controls -->
+		  					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    					<span class="glyphicon glyphicon-chevron-left"></span>
+		  					</a>
+		  					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    					<span class="glyphicon glyphicon-chevron-right"></span>
+		  					</a>
+		</div> <!-- carrousel exemple generic -->
+	</div> <!-- col md 5 -->	
+</div>
+</div> <!-- row -->
+<!--end of col-md and container for descr content-->	
+
+<div class="row" id="bar">
+
+			<div class="col-md-12 text-center">
+			<h3 id="titleform">Formulaire d'inscription</h3>
+			</div>
+
+</div>
+
+
+		
+		<!-- Formulaire -->
+  			<div id="form">
+    			<div class="row" id="background">
+        			<div class="col-md-8 col-md-offset-2">
+          				<br>
+            				<form class="form-horizontal" action="" method="post">
+              					<fieldset>
+                					<!--<p id="green" align="center"><strong>Formulaire d'inscription</strong></p>-->
+
+                					<!-- Prénom -->
+                					<div class="form-group">
+                  						<label class="col-md-3 control-label" for="name">Prénom</label>
+                  						<div class="col-md-9">
+                    						<input id="firstname" name="firstname" type="text" placeholder="Votre Prénom" class="form-control">
+                  						</div>
+                					</div>
+
+					                <!-- Nom -->
+					                <div class="form-group">
+					                  <label class="col-md-3 control-label" for="name">Nom</label>
+					                  <div class="col-md-9">
+					                    <input id="name" name="name" type="text" placeholder="Votre Nom" class="form-control">
+					                  </div>
+					                </div>
+        
+					                <!-- Email-->
+					                <div class="form-group">
+					                  <label class="col-md-3 control-label" for="email">Votre e-mail</label>
+					                  <div class="col-md-9">
+					                    <input id="email" name="email" type="text" placeholder="Entrez votre adresse ici" class="form-control">
+					                  </div>
+					                </div>
+        
+					                <!-- Message -->
+					                <div class="form-group">
+					                  <label class="col-md-3 control-label" for="message">Votre message</label>
+					                  <div class="col-md-9">
+					                    <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message ici..." rows="5"></textarea>
+					                  </div>
+					                </div>
+					        
+					                <!-- Submit -->
+					                <div class="form-group">
+					                  <div class="col-md-12 text-right">
+					                    <button type="submit" class="btn btn-primary btn-sm">Envoyer</button>
+					                  </div>
+					                </div>
+					              </fieldset>
+					            </form>
+					          </div>
+					        </div>
+					   
+					  </div><!-- jumbo et fin du formulaire -->
+					</div>
 

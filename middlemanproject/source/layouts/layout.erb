@@ -12,8 +12,9 @@
     <%= stylesheet_link_tag "bootstrap.min", "custom" %>
     <%= javascript_include_tag "ie-emulation-modes-warning", "jquery.min", "bootstrap.min", "ie10-viewport-bug-workaround" %>
      <%= favicon_tag 'images/favicon.ico' %>
+     <!-- les glyphicons sont appelées grace au tweek du fichier config.rb ligne 59 -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!-- les glyphicons sont appelées grace au tweek du fichier config.rb ligne 59 -->
+    
 
 
 
@@ -21,14 +22,14 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= partial "header" %> <!-- Appel du header -->
+    <%= partial "header" %> <!-- Appel du header (_header.erb) -->
 
-    <div class="container"> <!-- retire la barre de scroll horizontal -->
+    <div class="container-fluid">
 
     <%= yield %> <!-- Appel index & autres pages -->
 
-    </div>
+</div>
 
-    <%= partial "footer" %> <!-- Appel du footer -->
+    <%= partial "footer" %> <!-- Appel du footer (_footer.erb) -->
   </body>
 </html>
