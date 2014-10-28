@@ -1,0 +1,65 @@
+/* Colors for <spans> and <p> */
+#green {
+	color:#68C223;
+}
+/**/
+#piccontact {
+	height: 80px;
+	width: 100px;
+}
+
+#intro {
+	width: auto;
+	background-color:#333331;
+	color: #EFEFCE;
+	right: 0px;
+	left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#title {
+	min-height: 15px;
+	background-color: #68C223;
+	color: #EFEFCE;
+}
+
+/* background and colors for col-md of contact */
+#contact {
+	background-color: #EFEFCE;;
+	color : #333331;
+}
+/**/
+
+/* Form background */
+#formcontact {
+	background-color: #333331;
+	color: #EFEFCE;
+}
+
+ /* Custom background and border Form */
+.well {
+    background-color: #333331;
+    border: none;
+}
+/**/
+/* Custom button of form */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #EFEFCE;
+    background-color: #68C223;
+    border-color: #EFEFCE;
+}
+.btn-primary {
+    color: #68C223;
+    background-color: #EFEFCE;
+    border-color: #68C223;
+}
+/**/
+
+/* Jumlbotron for addresses */
+.jumbotron {
+    background-color: #68C223;
+ }
+/**/
+
+
