@@ -92,20 +92,16 @@ footer
     background-color: #333331;
     border-top: solid 1.8px #68C223;
     color: #68C223 ;
-    margin-bottom: 0px;
 }
 footer li {
   display: inline-block;
-  margin-right: 10px;
-  padding-top: 3px;
-  padding-bottom: 5px;
+  margin-right: 5px;
+  padding-top: 5px;
 }
 form p, form label {
     color: #333331;
 }
-.espacefooter{
-    padding-top: 17px;
-}
+
 
 #content
 {
