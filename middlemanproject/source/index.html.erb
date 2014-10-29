@@ -2,105 +2,75 @@
 title: Seedcamp
 ---
 
-<div class="container">
-	<div class="row">
-	  <div class="col-sm-8 col-sm-offset-2">    
-	    <div class="jumbotron">
-
-	      <%= image_tag("logobarrenoir.gif", class: "center-block", id: "logo") %>
-			<!-- methode pour add une class & id à une image, Merci Emilien -->
-
-	        <br>
-	        <h4 id="logotitre" class="text-center">L'école numérique de La Loupe</h4>
-	    </div>
-	  </div>
-	</div>
+<div id="content" class="bs-docs-header">
+    <div class="container" id="#contain">
+      <img id="ground" src="./images/back.jpeg">
+      <img src="images/logoanimb.gif" class="center-block" id="logo">
+      <br>
+    </div>
 </div>
-
-<div class="jumbotron">
-  <div class="container-fluid">
-  	<div class="row">
-      <div class="col-sm-12">
-        <div class="col-sm-4">
-          <img src="http://lorempixel.com/150/150/" class="thumbnail center-block">
-        </div><!-- 4 -->
-        <div class="col-sm-8 text-left">
-         The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-        </div><!-- 4 -->
-      </div> <!-- 12 -->
-  	</div> <!-- row -->
-  </div> <!-- container -->
-</div><!-- jumbo -->
-
-<div class="jumbotron">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-8 text-right">
-        <ul>
-          <li>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</li>
-          <li>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</li>
-          <li>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</li>
-          <li>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</li>
-        </ul>
-      </div><!-- 4 -->
-      <div class="col-sm-4">
-        <img src="http://lorempixel.com/150/150/" class="thumbnail center-block">
-      </div><!-- 4 -->
-    </div> <!-- row -->
-  </div> <!-- container -->
-</div> <!-- jumbo -->
-
-<div class="jumbotron" id="formulaire">
-  <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-          <div class="well well-sm">
-            <form class="form-horizontal" action="" method="post">
-              <fieldset>
-                <p align="center"><strong>Formulaire</strong></p>
-        
-                <!-- Prénom -->
-                <div class="form-group">
-                  <label class="col-sm-3 control-label" for="name">Prénom</label>
-                  <div class="col-sm-9">
-                    <input id="firstname" name="firstname" type="text" placeholder="Votre Prénom" class="form-control">
-                  </div>
-                </div>
-
-                <!-- Nom -->
-                <div class="form-group">
-                  <label class="col-sm-3 control-label" for="name">Nom</label>
-                  <div class="col-sm-9">
-                    <input id="name" name="name" type="text" placeholder="Votre Nom" class="form-control">
-                  </div>
-                </div>
-        
-                <!-- Email-->
-                <div class="form-group">
-                  <label class="col-sm-3 control-label" for="email">Votre e-mail</label>
-                  <div class="col-sm-9">
-                    <input id="email" name="email" type="text" placeholder="Entrez votre adresse ici" class="form-control">
-                  </div>
-                </div>
-        
-                <!-- Message -->
-                <div class="form-group">
-                  <label class="col-sm-3 control-label" for="message">Votre message</label>
-                  <div class="col-sm-9">
-                    <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message ici..." rows="5"></textarea>
-                  </div>
-                </div>
-        
-                <!-- Envoyer -->
-                <div class="form-group">
-                  <div class="col-sm-12 text-right">
-                    <button type="submit" class="btn btn-warning btn-md">Envoyer</button>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
-          </div> <!-- well-?? -->
-        </div> <!-- col sm 8 -->
-    </div> <!-- row -->
-  </div> <!-- container-fluid -->
-</div> <!-- jumbo -->
+<div class="col-md-12" id="news">
+  <h3><strong>Plus qu'une semaine !</strong></h3>
+  <h4>Profiter de notre offre "Micro-Formations" !</h4>
+  <h4>Inscrivez vous en cliquant sur l'image correspondante ci-dessous !</h4> 
+</div>
+<div class="col-md-12" id="discover">
+  <h2>Découvrez nos formations...</h2>
+</div>
+<div class="row">
+  <div class="col-md-1 hidden-sm hidden-xs" id="left"><</div>
+    <div class="col-md-3 hidden-sm hidden-xs" id="picless">
+      <img id="less" src="./images/forma2.jpg">
+    </div>
+    <div class="col-md-4 hidden-sm hidden-xs" id="pic" href="#pic">
+      <img src="./images/forma3.jpg">
+    </div>
+    <div class="col-md-3 hidden-sm hidden-xs" id="picmore">
+      <img id="more" src="./images/forma4.jpg">
+    </div>
+    <div class="col-md-1" id="right">></div>
+  </div>
+  <div class="col-md-12 hidden-sm hidden-xs" id="momore">
+    <p>Une explication détaillée de cette formation</p>
+    <p>est disponible ci-dessous !</p>
+  </div>
+<div class="row">
+  <div class="col-md-5" id="comsmore">
+    <img id="paracom"src="./images/coms.jpeg">
+    <div id="facecoms">
+      <img src="./images/commit1.jpg">
+    </div>
+    <div id="realcoms">
+      <h3>«Grâce à vous, j’ai de bonnes bases pour évoluer dans la programmation web ! A moi internet ! ;-)»</h3>
+    </div>
+  </div>
+  <div class="col-md-7" id="descmore">
+    <br></br>
+    <h3>OFFRE DE FORMATION : Développeur HTML et CSS</h3>
+    <br></br>
+    <p>Envie de prendre les commandes de vos pages web et mobiles ? Ce module de formation  vous offre la possibilité d’apprendre les bases du code HTML et CSS afin de devenir en quelques semaines capables de programmer des sites webs complets et fonctionnels.</p>
+    <br></br>
+    <ul>
+      <li>Les bases du langage web (10 heures)</li>
+      <li>Apprentissage du HTML (25 heures)</li>
+      <li>Intégrer son CSS dans sa page (15 heures)</li>
+      <li>Bootstrap et les outils de tous les jours (8 heures)</li>
+      <li>Créez votre propre site ! (25 heures)</li>
+    </ul>
+  </div>
+</div>
+<div class="col-md-12" id="commit">
+  <h2>... & Cultivez votre imagination !</h2>
+</div>
+<div class="row">
+  <div class="col-md-11 hidden-sm hidden-xs" id="footcoms">
+    <img src="./images/man1.jpg">
+    <div id="coms">
+      <blockquote>
+        <p>« Au départ, j’ai appris la programmation et le développement par passion. Pendant mes études d’ingénieur, j’ai toujours aimé hacké les choses qui m’environnaient. Par hacking, j’entends déconstruire : comprendre comment les mécanismes fonctionnent et les réutiliser pour leur trouver d’autres utilités.»</p>
+      </blockquote>
+    </div>
+  </div>
+  <div class="col-md-1 hidden-sm hidden-xs" id="switch">></div>
+</div>
+<div class="col-md-12" id="footer"></div>
