@@ -196,5 +196,60 @@ form p, form label {
 }
 
 .bordurebasse{
-        border-bottom: solid 1.8px #68C223;
+    border-bottom: solid 1.8px #68C223;
 }
+
+/* ACCUEIL */
+/* Description Formation */
+#descmore
+{
+    background-color:#333331;
+    color:#EFEFCE;
+    text-align:center;
+    box-shadow: 0px 10px 10px #000000;
+    height: 400px;
+}
+
+#descmore h3
+{
+    background-color:#000000;
+    color:#68C223;
+}
+
+#descmore p, #descmore li
+{
+    text-decoration:none;
+    font-size:14px;
+    color:#EFEFCE;
+}
+
+/*COMMENTAIRES CARROUSSELS*/
+#fondcomment {
+    background-image: url(../images/coms.jpeg);
+    background-repeat: justify;
+    color:#333331;
+    text-align:center;
+    box-shadow: 0px 10px 10px #000000;
+    z-index:0;
+    height: 400px;
+}
+
+#beurre
+{
+    background-color:#EFEFCE;
+    border-radius:25px;
+    box-shadow: 0px 10px 10px #000000;
+    border:solid black 1px;
+    z-index:2;
+}
+
+.commblanc {
+    margin-top: -5px;
+    background-color:#EFEFCE;
+    display:inline-block;
+    border-radius:25px;
+    border:solid black 1px;
+    box-shadow: 0px 10px 10px #000000;
+    z-index:2;
+}
+/**/

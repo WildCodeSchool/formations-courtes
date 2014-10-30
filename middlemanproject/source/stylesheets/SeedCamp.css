@@ -1,5 +1,7 @@
 #paracom
 {
+	height: 10%;
+	width: 10%;
 	opacity:1;
 	background-color:#333331;
 	margin-top:50px;
@@ -41,46 +43,30 @@
 	z-index:3;
 }
 
-#descmore
-{
-	background-color:#333331;
-	height:500px;
-  	color:#EFEFCE;
-  	text-align:center;
-	box-shadow: 0px 10px 10px #000000;
-	margin-top:50px;
-}
-
-#descmore h3
-{
-	background-color:#000000;
-	color:#68C223;
-}
-
-#descmore p, #descmore li
-{
-	text-decoration:none;
-	font-size:20px;
-	color:#EFEFCE;
-}
-
 #comsmore
 {
-	height:500px;
+	/* height:300px; */
+	height:auto;
+	width: auto;
 }
+
 
 #facecoms img
 {
 	border-radius:100px;
 	height:100%;
-	width:100%;
+	width:100%; 
+	/* height:auto;*/
+	/* width: auto; */
 }
 
 #facecoms
 {
 	background-color:#EFEFCE;
 	height:150px;
-	width:150px;
+	width:150px; 
+	/* height:auto;
+	width: auto; */
 	display:inline-block;
 	margin-top:-82%;
 	margin-left:32.5%;
@@ -134,7 +120,9 @@
 
 #comsmore img
 {
-	margin-left:-10%;
+	/* margin-left:-10%;
+	/* height:auto;*/
+	width: auto; 
 	height:100%;
 	width:120%;
 	z-index:1;
@@ -150,7 +138,7 @@
 
 #footcoms
 {
-	height:300px;
+	/* height:300px; */
   	text-align:right;
   	background-image:url("../images/coms.jpg");
 }
@@ -160,36 +148,40 @@
 	height:200px;
 	width:200px;
 	border-radius:100px;
-	margin-right:80%;
-	margin-top:4%;
+	/* margin-right:80%;
+	margin-top:4%; */
 	border:solid black 1px;
 	box-shadow: 0px 10px 10px #000000;
-}
-
-#footer
-{
-	background-color:#333331;
-	height:75px;
 }
 
 #switch
 {
 	font-size:100px;
 	background-color:#000000;
-	height:300px;
-	padding-top:75px;
+	/* height:300px;
+	padding-top:75px; */
 }
 
+/*
 #coms
 {
 	margin-left:25%;
 	margin-top:-20%;
 	margin-right:10%;
 }
+*/
 
 #coms p
 {
-	font-size:20px;
+	font-size:18px;
+}
+
+#jambon
+{
+	height:150px;
+	width:150px;
+	border-radius:100%;
+	display:inline-block;
 }
 
 #commit
