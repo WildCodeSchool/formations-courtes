@@ -2,6 +2,29 @@ $(document).ready(function()
 {
 	var move = 3;
 	var coms = 1;
+	var eggs = 0;
+
+	function traitement(evenement)
+	{
+    	if(evenement.which == 170)
+    	{
+    		eggs = eggs + 1;
+    		if (eggs == 3)
+    		{
+    			var easter = prompt("Easter Eggs !");
+    			if (easter == "pumpkins")
+    			{
+    				$("#ground").css("display", "none");
+    				$("#contain").append("<img id=groundeggs src=http://www.kissdesign.org/wallpapers/img/wallpapers_Halloween/wallpapers_Halloween_038.jpg>");
+    				$("#news").css("background-image", "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDnEcsNP852kla0hsxpcqMNhyvG2mDUvPc-79vRUjR7ljFXPRUw)")
+    			}
+    		}
+    	}   
+    }
+    $(function()
+	{
+    	$(document).keydown(traitement);
+	});
 	$("#right, #picmore").click(function()
 	{
 		if (move == 0)
